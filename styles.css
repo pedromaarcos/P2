@@ -1,0 +1,227 @@
+#titulo{
+  font-family: Verdana, Times, Sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+.menu_superior {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    background: rgb(5, 91, 249);
+    padding: 0;
+    justify-content: center;
+}
+.menu_superior li {
+  flex: 1;
+}
+.menu_superior a {
+  font-family: Verdana, Times, Sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  padding: 9px;
+  color: black;
+  user-select: none;
+}
+.menu_superior li:hover {
+  background: rgb(252, 212, 4);
+}
+
+.menu_inferior {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  background: rgb(5, 91, 249);
+  padding: 0;
+  justify-content: center;
+}
+.menu_inferior li {
+  flex: 1;
+}
+.menu_inferior a {
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  padding: 9px;
+  user-select: none;
+}
+.menu_inferior li:hover {
+  background: rgb(252, 212, 4);
+}
+p, legend{
+  font-family: Verdana, Times, Sans-serif;
+  font-size: 15px;
+  text-align: justify;
+  margin: 10px;
+}
+h2{
+  font-family: Verdana, Times, Sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  margin: 10px;
+}
+#Foto_derecha_1{
+  float: right;   
+  margin: 0 0 0 10px; 
+  border-radius: 10px; /* Bordes redondeados */
+}
+#Foto_izquierda_1{
+  float: left;    
+  margin: 0 20px 0 0 ;
+  border-radius: 10px; /* Bordes redondeados */
+}
+#video_ney{
+  display: block;
+  margin: 0 auto;
+}
+
+.Tabla_Estadisticas {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+}
+.Tabla_Estadisticas th, td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+}
+.Tabla_Estadisticas th {
+  background-color: rgb(21, 230, 83);
+  color: black;
+}
+.Tabla_Estadisticas td {
+  background-color: rgb(245, 245, 245);
+  color:black;
+}
+.Tabla_Estadisticas tr:nth-child(even) td {
+  background-color: rgb(202, 202, 202);
+  color: black;
+}
+.Tabla_Estadisticas tr:last-child td {
+  background-color: rgb(67, 67, 67); 
+  font-weight: bold; 
+  color: white; 
+}
+.menu_palmares {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  background: rgb(5, 91, 249);
+  padding: 0;
+  justify-content: center;
+}
+.menu_palmares li {
+flex: 1;
+}
+.menu_palmares a {
+font-family: Verdana, Times, Sans-serif;
+font-weight: bold;
+text-align: center;
+text-decoration: none;
+display: block;
+padding: 9px;
+color: black;
+user-select: none;
+}
+.menu_palmares li:hover {
+background: rgb(252, 212, 4);
+}
+.Tabla_Palmares {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+}
+.Tabla_Palmares th, td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+}
+.Tabla_Palmares th {
+  background-color: rgb(21, 230, 83);
+  color: black;
+}
+.Tabla_Palmares td {
+  background-color: rgb(245, 245, 245);
+  color:black;
+}
+#Icono{
+  margin:5px; 
+  vertical-align: middle;
+}
+
+
+.Equipos_Ney {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-wrap: wrap;  
+  gap: 10px;  
+  /*height: 100vh;*/
+}
+
+.Foto_Equipo{
+  height: 450px;
+  object-fit: cover;
+  border-radius: 10px; 
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.question {
+  margin-bottom: 20px;
+}
+.question p {
+  font-weight: bold;
+}
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: rgb(44,211,105);
+}
+
+
+.form{
+  text-align: center;
+}
+
+fieldset{
+  margin: 0 auto;
+  width: 600px;
+}
+
+#boton{
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  display: flex;
+  width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: rgb(21, 230, 83);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#enviado{
+  font-family: Verdana, Times, Sans-serif;
+  text-align: center;
+}
+
+.container {
+  width: 60%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
